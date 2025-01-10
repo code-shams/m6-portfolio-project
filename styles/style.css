@@ -1,0 +1,142 @@
+/* font styles */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.open-sans {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+header {
+    background: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, center left;
+    background-color: #FFF8F3;
+}
+/* Nav bar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+/* nav bar list items */
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+/* Adds the following text color to multiple elements */
+.dark1 {
+    color: #181818;
+}
+.dark2 {
+    color: rgb(71, 71, 71);
+}
+
+.dark3 {
+    color: #757575;
+}
+
+/* Adds style to "Mary" element */
+#nav-name {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+/* For adding the color below to multiple elements */
+.orange-text {
+    color: #fd6e0a;
+}
+
+/* Orange color buttons */
+.btn-primary {
+    padding: 18px 35px;
+    background-color: #fd6e0a;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+}
+
+#hire {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Styles for Banner Section */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px 0px 200px;
+}
+
+.bannerContent {
+    width: 585px;
+}
+
+.bannerContent h4{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.bannerContent h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin: 0px;
+}
+
+.bannerContent p{
+    font-size: 18px;
+    font-weight: normal;
+    margin-top:0px;
+    margin-bottom: 20px;
+}
+
+.bannerContent button {
+
+}
+.bannerImage {
+    width: 585px;
+    height: 675px;
+}
+
+/* Main style */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    background-color: #FFF8F3;
+    width: 100%;
+    max-width: 1140px;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.aboutContent {
+    margin: 131px 156px;
+    padding: 20px;
+    border: 5px solid red;
+    background-color: #FFFFFF;
+}
+
+.aboutInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
