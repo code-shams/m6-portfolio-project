@@ -22,7 +22,8 @@ header {
     background: url("../images/developer.png"), url("../images/header_bg.png");
     background-color: rgb(255, 248, 243);
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: left center, bottom right;
+    background-size: auto 90%, auto;
 }
 
 nav {
