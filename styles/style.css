@@ -19,10 +19,10 @@
 }
 header {
     padding-top: 10px;
-    background: url(../images/developer.png), url("../images/header_bg.png");
+    background: url("../images/developer.png"), url("../images/header_bg.png");
     background-color: rgb(255, 248, 243);
     background-repeat: no-repeat;
-    background-position: center left, bottom right;
+    background-position: top left, bottom right;
 }
 
 nav {
