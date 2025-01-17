@@ -104,7 +104,7 @@ nav button {
 .hero button {
     background-color: rgb(253, 110, 10);
     border: none;
-    padding: 18px 36px;
+    padding: 18px 18px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
@@ -121,10 +121,12 @@ nav button {
 /* Main Section */
 main {
     background-color: #fff;
+    max-width: 1140px;
+    margin: 0px auto;
 }
 
 .about-container {
-    margin: 130px 230px 130px 230px;
+    margin: 130px 0px;
     background-color: rgb(255, 248, 243);
     padding: 130px 155px;
     border-radius: 10px;
@@ -163,12 +165,12 @@ main {
 }
 
 .what-i-do #what-i-do-para {
-    margin: 0px 100px;
+    /* margin: 0px 100px; */
 }
 
 .what-i-do {
     text-align: center;
-    margin: 0px 230px 130px 230px;
+    margin-bottom: 130px;
     /* border: 2px solid palegreen; */
 }
 
@@ -235,7 +237,8 @@ main {
 
 .resume-container-l1 {
     /* border: 2px solid; */
-    margin: 0px 230px 130px 230px;
+    margin-bottom: 130px;
+    /* margin: 0px 230px 130px 230px; */
 }
 
 .resume-container-l1 h3 {
@@ -256,7 +259,7 @@ main {
     text-align: center;
     border: none;
     border-radius: 5px;
-    padding: 19px 17px 19px 50px;
+    padding: 19px 17px;
 }
 
 .resume-content-l2 {
@@ -349,5 +352,5 @@ textarea {
     text-align: center;
     border: none;
     border-radius: 5px;
-    padding: 19px 38px;
+    padding: 20px 20px;
 }
